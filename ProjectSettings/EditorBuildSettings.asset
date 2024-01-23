@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/1 Start Scene.unity
     guid: 6569f28724fa55c409a554397cf76aee
   - enabled: 1
+    path: Assets/Scenes/1.1 Introduction.unity
+    guid: 82c8d606b169df046992ae634ca3b6f1
+  - enabled: 1
     path: Assets/Scenes/2 MiniQuizGame Scene.unity
     guid: 8825eecfd42bff84f86975c38a09d924
   - enabled: 1
