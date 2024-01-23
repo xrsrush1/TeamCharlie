@@ -1,0 +1,33 @@
+﻿title: IntroScript
+tags:
+---
+Srushti: Hello Player. My name is Srushti, and these are my friends, Katia and Laxmi. Welcome to this experience. #line:Srushti01
+Srushti: In this experience, you will get to know about climate change with the help of some mini games which me and my friends have developed.  #line:Srushti02 
+Srushti: After you complete each game, you will be able to move on to the next one. Dont worry, one of us will always be there to help you. #line:Srushti03 
+Srushti: Also, dont forget to read the controller instructions written around you.  #line:Srushti04 
+Srushti: So! Are you ready to dive in to it?  Come on then! #line:Srushti05 
+Srushti: Click on the start button to begin the first game. #line:Srushti06 
+===
+
+title: BeachSceneIntro
+tags:
+---
+Srushti: Hello Player. My name is Srushti, Welcome to the last experience. In this experience, you will have to complete 2 tasks. #line:Srushti07 
+Srushti: First, there will be objects falling which represent the things that are harmfull for the climate. You have to destroy them with the sword given.  #line:Srushti08 
+Srushti: Second, you have to collect atleast 5 items, which are harmfull for the environment. These objects are scattered around the scene. #line:Srushti09 
+Srushti: Okay then. Good Luck! You can now see the objects falling. You can begin your first task. #line:Srushti10 
+===
+
+title: QuizSceneIntro
+tags:
+---
+Laxmi: Hello Player. My name is Laxmi. Welcome to this quiz which I have created.  #line:0e9d1c3 
+Laxmi: Your task here is to answer the questions correctly regarding Beach pollution. #line:0d13aa4 
+===
+
+title:TreasureHuntSceneIntro
+tags:
+---
+Katia: Hello Player. My name is Katia. Welcome to this experience which I have created.  #line:08746ed 
+
+===
