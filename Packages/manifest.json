@@ -14,7 +14,10 @@
     "com.unity.xr.interaction.toolkit": "2.5.2",
     "com.unity.xr.management": "4.4.0",
     "com.unity.xr.openxr": "1.8.2",
+<<<<<<< HEAD
     "dev.yarnspinner.unity": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git",
+=======
+>>>>>>> parent of 71746b9 (added models to scene 3 : kat)
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
