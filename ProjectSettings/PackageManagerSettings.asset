@@ -24,10 +24,6 @@ MonoBehaviour:
     m_Scopes: []
     m_IsDefault: 1
     m_Capabilities: 7
-<<<<<<< HEAD
-    m_ConfigSource: 0
-=======
->>>>>>> parent of 71746b9 (added models to scene 3 : kat)
   m_UserSelectedRegistryName: 
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
