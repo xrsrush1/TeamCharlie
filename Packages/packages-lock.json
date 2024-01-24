@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.unity.animation.rigging": {
+      "version": "1.2.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.test-framework": "1.1.24"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.burst": {
       "version": "1.8.9",
       "depth": 1,
@@ -211,6 +221,13 @@
         "com.unity.xr.core-utils": "2.1.1"
       },
       "url": "https://packages.unity.com"
+    },
+    "dev.yarnspinner.unity": {
+      "version": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "1ebd52fe24e87d0594ae3a08bd518733025f5418"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
