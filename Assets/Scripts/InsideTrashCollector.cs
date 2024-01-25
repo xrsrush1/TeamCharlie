@@ -27,18 +27,14 @@ public class InsideTrashCollector : MonoBehaviour
         {
             Debug.Log("Collected items: 5");
 
-            //now, after 5 items are collected, we have to make the sword visible for the second task: VR Slice
-            //this.swordVisible = true; //we will use this variable to make the sword visible
+            //now, after 5 items are collected, we have to make the exit button visible
+            GameObject.FindWithTag("ExitBtn");
         }
         
     }
 
     public void Update()
     {
-        //if (swordVisible)
-        //{
-        //    //here make the sword game object visible
-        //    Debug.Log("Sword Visible");
-        //}
+       
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Dialogue Canvas
   - Trash
+  - ExitBtn
   layers:
   - Default
   - TransparentFX

@@ -355,7 +355,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Team Charlie
+  m_text: 'Eco-Warriors
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d96efdb64f2fd2a4f82d4ebf9a50f1bf, type: 2}
   m_sharedMaterial: {fileID: 330659742904912885, guid: d96efdb64f2fd2a4f82d4ebf9a50f1bf,
@@ -1593,6 +1595,13 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     playOnAwake: 0
+    source: {fileID: 0}
+  - name: BackgroundSound
+    clip: {fileID: 0}
+    volume: 0.593
+    pitch: 1
+    loop: 1
+    playOnAwake: 1
     source: {fileID: 0}
 --- !u!1 &846327981
 GameObject:
