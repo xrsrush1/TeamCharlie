@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.48613256, g: 0.57732064, b: 0.68299407, a: 1}
+  m_IndirectSpecularColor: {r: 0.48395744, g: 0.5757396, b: 0.68019843, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1597,8 +1597,8 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - name: BackgroundSound
-    clip: {fileID: 0}
-    volume: 0.593
+    clip: {fileID: 8300000, guid: 567cf69a5a5be8848ad35d771c2cf66b, type: 3}
+    volume: 0.4
     pitch: 1
     loop: 1
     playOnAwake: 1
