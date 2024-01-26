@@ -1,4 +1,4 @@
-# TeamCharlie: Eco - Warriors
+# TeamCharlie: Eco-Warriors
 **Description:**
 
 The objective of this project is to create a VR application based on the theme of ‘Climate Change’. We were a team of 3 and our team name is Team Charlie. We decided to name our Project as Eco Warriors. This VR experience is divided into 3 main scenes developed by each team member. 
@@ -11,7 +11,7 @@ The features that are being implemented in this experience are:
 **b. Grabbable Objects:** Here, the player can interact and pick up and throw around certain objects in the scene. This is implemented using XR Grab Interactable attached to the objects.
 
 **c. VR Slice:** Here, the player can slice through any sliceable objects using the grabbable sword given.
-These experience ensure user interactivity and immersive experience.
+These experiences ensure user interactivity and immersive experience.
 
 **Installation:**
 
@@ -28,18 +28,21 @@ This project is built using Unity version 2022.3.11f1 with a Universal Render Pi
 4.	Autumn Mountain by Game Warming
 5.	Characters generated from Ready Player me
 6.	Cardboard Boxes pack by PolyWorkshop
-7.	High Quality Solar Panel by Padia 3D
+7.	High-Quality Solar Panel by Padia 3D
 8.	Low-Poly Bicycle #5 by Sidra Max
 9.	Minimalist ArchViz Bedroom by Rad-Coders
 10.	Meta quest 3low poly by sketchfab/Alvin Suen
 11.	Button Set by Kartlnnka
-12.	Fantasy Wooden GUI : Free by Black Hammer
+12.	Fantasy Wooden GUI: Free by Black Hammer
 13.	War Pole-Jade by Juhwan
 14.	Fauna's  Sapling by Sketchfab/Welloy
 15.	Recycle Bin high Res by Sketchfab/laaafite
 16.	Wind Turbine by Sketchfab/Shivansh SIngh
 
 **Screenshots:**
+![Picture1](https://github.com/xrsrush1/TeamCharlie/assets/147525378/92fdff44-ed79-4e19-a62e-c5798363ef79)
+
+
 
 **Team Members:**
 
