@@ -6,6 +6,7 @@ public class InsideTrashCollector : MonoBehaviour
 {
     private AudioSource CollectionAudio;
     private int CollectCount = 0;
+    public GameObject ExitUI;
     //private bool swordVisible = false;
     // This script is used to disable any obj that enters the collector
 
@@ -28,7 +29,8 @@ public class InsideTrashCollector : MonoBehaviour
             Debug.Log("Collected items: 5");
 
             //now, after 5 items are collected, we have to make the exit button visible
-            GameObject.FindWithTag("ExitBtn");
+            ExitUI = GameObject.FindWithTag("ExitBtn");
+            ExitUI.SetActive(true);
         }
         
     }
