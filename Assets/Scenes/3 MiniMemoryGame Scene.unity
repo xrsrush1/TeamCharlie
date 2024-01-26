@@ -916,7 +916,7 @@ GameObject:
   - component: {fileID: 147404271}
   - component: {fileID: 147404272}
   m_Layer: 0
-  m_Name: aitrigger (1)
+  m_Name: aitriggerSolar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1133,6 +1133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SolarPanel: {fileID: 0}
+  SolarPanelCollected: 0
 --- !u!1 &148167687 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1437448312348714, guid: 0cabe418c53fc4e4f834ed61b237ea06,
@@ -2548,7 +2549,7 @@ GameObject:
   - component: {fileID: 349945372}
   - component: {fileID: 349945373}
   m_Layer: 0
-  m_Name: aitrigger (4)
+  m_Name: aitriggerBin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2761,10 +2762,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 349945366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be55ec1f098440046962169931acaf5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 414cb05a2f1a13943a72f607d7e8fe03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SolarPanel: {fileID: 0}
+  Bin: {fileID: 0}
+  BinCollected: 0
 --- !u!1 &363706471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,7 +3505,7 @@ GameObject:
   - component: {fileID: 430652703}
   - component: {fileID: 430652704}
   m_Layer: 0
-  m_Name: aitrigger (2)
+  m_Name: aitriggerTurbine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3716,10 +3718,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 430652697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be55ec1f098440046962169931acaf5f, type: 3}
+  m_Script: {fileID: 11500000, guid: d63325a579fa69e428ce399e4151d9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SolarPanel: {fileID: 0}
+  Turbine: {fileID: 0}
+  TurbineCollected: 0
 --- !u!1 &448256127
 GameObject:
   m_ObjectHideFlags: 0
@@ -9265,7 +9268,7 @@ GameObject:
   - component: {fileID: 1093337582}
   - component: {fileID: 1093337583}
   m_Layer: 0
-  m_Name: aitrigger
+  m_Name: aitriggerBike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9478,10 +9481,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1093337576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be55ec1f098440046962169931acaf5f, type: 3}
+  m_Script: {fileID: 11500000, guid: de187fe909e09534eafa4995017c0946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SolarPanel: {fileID: 0}
+  Bike: {fileID: 0}
+  BikeCollected: 0
 --- !u!1001 &1110626250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10478,14 +10482,13 @@ GameObject:
   - component: {fileID: 1212402844}
   - component: {fileID: 1212402843}
   - component: {fileID: 1212402846}
-  - component: {fileID: 1212402847}
   m_Layer: 5
-  m_Name: Game Menu UI
+  m_Name: NextBtn
   m_TagString: ExitBtn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1212402843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10540,7 +10543,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212402841}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -1.167}
+  m_LocalPosition: {x: 0, y: 0, z: -0.776}
   m_LocalScale: {x: 0.0016010001, y: 0.0016010001, z: 0.0016010001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10550,7 +10553,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.808, y: 1.504}
+  m_AnchoredPosition: {x: 2.808, y: 1.01}
   m_SizeDelta: {x: 771.2058, y: 460.7867}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212402846
@@ -10572,25 +10575,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
---- !u!114 &1212402847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212402841}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af07645f3014a1347a5b1232afc24251, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainMenu: {fileID: 1163744328}
-  about: {fileID: 0}
-  startButton: {fileID: 448256129}
-  aboutButton: {fileID: 0}
-  quitButton: {fileID: 0}
-  returnButtons:
-  - {fileID: 0}
 --- !u!1001 &1234441320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16465,7 +16449,7 @@ GameObject:
   - component: {fileID: 2133916847}
   - component: {fileID: 2133916848}
   m_Layer: 0
-  m_Name: aitrigger (3)
+  m_Name: aitriggerSapling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16678,10 +16662,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2133916841}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be55ec1f098440046962169931acaf5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8162f98f6c9422f4aaf6bb4c847e0e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SolarPanel: {fileID: 0}
+  Sapling: {fileID: 0}
+  SaplingCollected: 0
 --- !u!1 &2139037541
 GameObject:
   m_ObjectHideFlags: 0
